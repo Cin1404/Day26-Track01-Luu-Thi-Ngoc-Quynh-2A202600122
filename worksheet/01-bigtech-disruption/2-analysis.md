@@ -1,4 +1,4 @@
----
+﻿---
 artifact: 2 — Phân tích case theo 4 câu hỏi
 bai-tap: 1 — Tìm 1 case bị ảnh hưởng bởi big tech AI (cá nhân)
 phase: Vận dụng Lens 1 (Customer Expectations + Four Fits)
@@ -9,7 +9,7 @@ nop-cuoi: Không — file trung gian
 
 # 2 — Phân tích case: Phần A (4 câu hỏi chiến lược) + Phần B (5 chiều phân tích)
 
-Mục tiêu: bạn trả lời 4 câu hỏi chiến lược (Phần A) và bổ sung 5 chiều phân tích định lượng (Phần B) cho case mình chọn. Mọi nhận định lấy từ số liệu đã tìm ở `1-research.md` làm bằng chứng. Lab 1 là phần cá nhân — phân tích trong file này là của riêng học viên.
+Mục tiêu: bạn trả lời 4 câu hỏi chiến lược (Phần A) và bổ sung 5 chiều phân tích định lượng (Phần B) cho case mình chọn. Mọi nhận định lấy từ số liệu đã tìm ở `1-research.md` làm bằng chứng.
 
 Lý do làm bước này: số liệu thô chưa phải nhận định. Phần A vận dụng Lens 1 (7 Customer Expectation Shifts + Four Fits + Big Squeeze) để giải thích **vì sao** case này sụp đổ. Phần B đào sâu vào quy mô tệp người dùng, tốc độ tăng trưởng, doanh thu, cấu trúc moat và data flywheel — những chiều quyết định khả năng phòng thủ của sản phẩm.
 
@@ -28,278 +28,174 @@ Quy tắc: mỗi câu trả lời phải tham chiếu ít nhất 2 số liệu t
 
 # Phần A — 4 câu hỏi chiến lược
 
----
-
 ## Câu hỏi 1 — Trước AI, sản phẩm hoạt động dựa trên giả định gì?
 
-Câu hỏi phụ:
+Trước khi Big Tech AI ra tính năng tương tự, Grammarly hoạt động dựa trên các giả định sau:
 
-- Người dùng sản phẩm là ai? (sinh viên, lập trình viên, content creator, doanh nghiệp...)
-- Họ tìm đến sản phẩm vì điều gì? (giải bài tập, viết code, soạn nội dung, ...)
-- Sản phẩm cung cấp giá trị gì cho họ? (tài liệu, đáp án, công cụ, mạng lưới chuyên gia...)
-- Mô hình kinh doanh là gì? (gói tháng, gói năm, trả lẻ, freemium...)
-- Tại sao mô hình này hoạt động được nhiều năm?
-
-### Trả lời
-
-Trước khi big tech AI ra tính năng tương tự, sản phẩm hoạt động dựa trên các giả định sau:
-
-- **Người dùng**: [...]
-- **Vấn đề người dùng cần giải**: [...]
-- **Giá trị sản phẩm cung cấp**: [...]
-- **Mô hình kinh doanh**: [...]
+- **Người dùng**: sinh viên, content creator, marketer, nhân viên văn phòng và người học tiếng Anh cần check ngữ pháp trước khi xuất văn bản.
+- **Vấn đề người dùng cần giải**: họ cần sửa lỗi ngữ pháp, chính tả, cải thiện tone và độ rõ ràng của văn bản.
+- **Giá trị sản phẩm cung cấp**: một lớp kiểm tra chất lượng cuối cùng cho nội dung do người dùng tự viết.
+- **Mô hình kinh doanh**: freemium + subscription trả phí (Premium cho cá nhân, Business cho doanh nghiệp).
 - **Vì sao mô hình này hoạt động**:
-  - Lý do 1: [...]
-  - Lý do 2: [...]
-  - Lý do 3: [...]
+  - Lý do 1: người dùng chấp nhận workflow "viết xong rồi kiểm tra" với browser extension.
+  - Lý do 2: grammar checking vẫn là một giá trị rõ ràng, dễ hiểu và có thể bán được.
+  - Lý do 3: thương hiệu Grammarly trở thành tiêu chuẩn với lượng user lớn và enterprise reach.
 
-**Bằng chứng** (tham chiếu số liệu từ `1-research.md`):
+**Bằng chứng**:
 
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
+- [S-01] ~30 triệu DAU cho thấy sản phẩm được dùng rộng.
+- [S-02] >50.000 khách doanh nghiệp chứng tỏ mô hình B2B hoạt động trước AI.
 
 ---
 
-## Câu hỏi 2 — Kỳ vọng của người dùng đã thay đổi như thế nào? (liên hệ 7 dịch chuyển)
+## Câu hỏi 2 — Kỳ vọng của người dùng đã thay đổi như thế nào? (liên hệ 7 shifts)
 
-Câu hỏi phụ:
+Các shift quan trọng nhất trong case Grammarly:
 
-- Trong 7 Customer Expectation Shifts đã học ở Lens 1, shift nào áp dụng vào case bạn chọn rõ nhất?
-- Trước đây: người dùng kỳ vọng gì từ sản phẩm này?
-- Sau khi big tech AI ra tính năng tương tự: người dùng kỳ vọng gì khác?
-- So sánh hành vi cụ thể: trước đây người dùng làm thế nào, giờ làm thế nào?
+- **Shift 1 — Do the work for me**: chuyển từ "tool sửa lỗi" sang "assistant viết thay".
+- **Shift 5 — Expect it now**: người dùng mong muốn output nhanh và sẵn sàng dùng AI ngay trong workflow.
+- **Shift 6 — Interface adapts to me**: người dùng muốn tính năng nằm trong Word/Gmail/Docs thay vì mở extension riêng.
 
-### Trả lời
+So sánh kỳ vọng cũ và mới:
 
-7 Customer Expectation Shifts (nhắc lại):
-
-1. Do the work for me (tool → teammate)
-2. Custom made for me
-3. Busy work done for me
-4. Pay for output (not seat)
-5. Expect it now (instant)
-6. Interface adapts to me
-7. Tool sees what I'm doing (context-aware)
-
-Trong case bạn chọn, các shift quan trọng nhất là:
-
-- **Shift số ___**: [tên shift] — vì [...]
-- **Shift số ___**: [tên shift] — vì [...]
-
-So sánh kỳ vọng cũ và mới của người dùng:
-
-| Trước khi big tech AI ra tính năng tương tự (kỳ vọng cũ) | Sau khi big tech AI ra tính năng tương tự (kỳ vọng mới) |
+| Trước AI | Sau AI |
 |---|---|
-| [...] | [...] |
-| [...] | [...] |
-| [...] | [...] |
-| [...] | [...] |
+| Người dùng viết nội dung rồi chạy Grammarly để sửa | Người dùng muốn AI tạo nội dung trực tiếp hoặc rewrite ngay trong công cụ họ dùng |
+| Grammar check / spell check | Generate content, rewrite, summarize, tone control |
+| Standalone extension / app | Built-in assistant trong Word/Gmail/Docs |
+| Copy/paste nội dung vào công cụ | Workflow native, không rời ứng dụng |
 
 **Bằng chứng**:
 
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
+- [S-01] Grammarly là tiện ích kiểm tra, còn ChatGPT/ Copilot/ Gemini đi sâu vào generation.
+- [S-07,S-08] ChatGPT 100M người dùng chỉ sau 2 tháng làm tăng kỳ vọng người dùng về generation.
 
 ---
 
-## Câu hỏi 3 — Giả định nào của sản phẩm đã không còn đúng? (dẫn số liệu cụ thể)
+## Câu hỏi 3 — Giả định nào của sản phẩm đã không còn đúng? (4 Fits)
 
-Câu hỏi phụ:
+Trước AI, Grammarly có 4 fit:
 
-- Trong khung Four Fits (Market / Product / Channel / Model), Fit nào vỡ trước tiên?
-- Fit nào vỡ sau đó như hệ quả?
-- Dùng số liệu cụ thể để chứng minh từng Fit đã vỡ.
+- **Problem–Solution Fit**: Giải quyết bài toán viết chưa tốt bằng grammar check và rewrite.
+- **Product–Market Fit**: Thị trường lớn cho công cụ viết tiếng Anh.
+- **Channel Fit**: Phân phối chủ yếu qua browser extension và plugin.
+- **Business Model Fit**: Freemium + subscription cho user cá nhân và doanh nghiệp.
 
-### Trả lời
+Sau khi Big Tech AI ra tính năng tương tự, các fit vỡ theo trình tự:
 
-Khung Four Fits:
+1. **Fit vỡ đầu tiên: Channel Fit** — tính năng moved-in workflow vào Word/Gmail/Docs, làm giảm lợi thế phân phối extension. Bằng chứng: [S-09] Copilot tích hợp Office và [S-10] Gemini tích hợp Gmail/Docs.
+2. **Fit vỡ thứ hai: Product–Market Fit** — nhiều tính năng Grammarly có thể làm giờ trở thành cơ bản trong các nền tảng lớn. Bằng chứng: [S-13,S-14,S-15] ChatGPT/Copilot/Gemini cung cấp viết email, rewrite, summarize.
+3. **Fit vỡ thứ ba: Business Model Fit** — nếu ChatGPT free và Copilot tích hợp Microsoft 365, willingness-to-pay với Grammarly Premium giảm. Bằng chứng: [S-08] ChatGPT 100M users và [S-05] Microsoft 365 400M paid users.
+4. **Fit vỡ thứ tư: Problem–Solution Fit** — người dùng không chỉ cần sửa lỗi nữa, mà cần AI tạo nội dung thay và tối ưu workflow. Bằng chứng: [S-11] GrammarlyGO ra mắt để phản ứng với shift này.
 
-```text
-Market ←—Product Market Fit—→ Product
-  ↕                            ↕
-Model ←—Channel Model Fit—→ Channel
-```
+Tốc độ vỡ Fit:
 
-Bốn Fit của sản phẩm trước AI:
-
-- **Product Market Fit**: sản phẩm giải đúng vấn đề của người dùng (cụ thể: [...]).
-- **Product Channel Fit**: kênh phân phối ([...]) đưa người dùng vào sản phẩm.
-- **Channel Model Fit**: mô hình kinh doanh ([...]) phù hợp với kênh phân phối.
-- **Model Market Fit**: mô hình kinh doanh phù hợp với thị trường ([...]).
-
-Sau khi big tech AI ra tính năng tương tự, các Fit đã vỡ theo trình tự:
-
-1. **Fit vỡ đầu tiên**: [PMF / PCF / CMF / MMF] — vì [...]
-   - Bằng chứng: [Số liệu S-__]: [...]
-2. **Fit vỡ thứ hai**: [...] — vì [...]
-   - Bằng chứng: [Số liệu S-__]: [...]
-3. **Fit vỡ thứ ba**: [...] — vì [...]
-4. **Fit vỡ thứ tư**: [...] — vì [...]
-
-Tốc độ vỡ Fit (Fit Collapse):
-
-- Từ khi big tech AI ra tính năng tương tự đến khi sản phẩm mất 50% người dùng/doanh thu: ___ tháng.
-- So sánh với pre-AI: tốc độ tương tự trong ngành thường mất ___ năm.
-- Kết luận: case này [đã / chưa] trải qua **Fit Collapse**.
+- Từ ChatGPT ra mắt 11/2022 đến GrammarlyGO 2023, khoảng dưới 12 tháng.
+- So với pre-AI, một thay đổi workflow lớn thường kéo dài nhiều năm, ở đây nó bị rút ngắn còn vài tháng.
+- Kết luận: case này đã trải qua Fit Collapse vì product fit bị dịch chuyển nhanh do Big Tech.
 
 **Bằng chứng**:
 
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
+- [S-07,S-08] ChatGPT lan rộng cực nhanh.
+- [S-09,S-10] Big Tech mang tính năng vào workflow native.
+- [S-11] Grammarly buộc phải pivot sang GrammarlyGO.
 
 ---
 
-## Câu hỏi 4 — Sản phẩm có thể cứu vãn? Hay đã quá muộn? (ý kiến + lý lẽ + số liệu)
+## Câu hỏi 4 — Sản phẩm có thể cứu vãn? Hay đã quá muộn?
 
-Câu hỏi phụ:
+So sánh phản ứng của Grammarly với Big Tech:
 
-- Có đối thủ nào trong cùng ngành phản ứng tốt hơn không? Họ đã làm khác gì?
-- Nếu sản phẩm phản ứng nhanh hơn (vd: trong vòng 6 tháng sau khi big tech AI ra mắt), có thể giữ được không?
-- Mô hình kinh doanh nào còn khả thi cho sản phẩm này? (chuyển sang B2B? niche khác? mua lại sản phẩm AI?)
-- Vai trò của Big Squeeze (3 lực nén) trong việc này?
-
-### Trả lời
-
-So sánh phản ứng của case bạn chọn với đối thủ phản ứng tốt hơn:
-
-| Yếu tố | Case bạn chọn | Đối thủ phản ứng tốt hơn |
+| Yếu tố | Grammarly | Big Tech |
 |---|---|---|
-| Đối tác AI | [...] | [...] |
-| Thời gian ra mắt sản phẩm AI | ___ tháng | ___ tháng |
-| Giá sản phẩm AI | $___ | $___ |
-| Tích hợp với sản phẩm cũ | [...] | [...] |
-| Mô hình kinh doanh | [...] | [...] |
+| Đối tác AI | Nội bộ/Custom | OpenAI GPT + Microsoft stack, Google Gemini |
+| Thời gian ra mắt sản phẩm AI | GrammarlyGO 2023 (~<12 tháng sau ChatGPT) | ChatGPT 11/2022, Copilot 03/2023, Gemini 2023–2024 |
+| Giá sản phẩm AI | Premium subscription | ChatGPT free + Microsoft 365 / Google Workspace bundling |
+| Tích hợp với sản phẩm cũ | Extension / standalone app | Native trong Word/Gmail/Docs |
+| Mô hình kinh doanh | Freemium + subscription | Platform + ecosystem bundle |
 
-Big Squeeze trên case bạn chọn (3 lực nén):
+Big Squeeze trên Grammarly:
 
-- **Lực 1 — Doanh nghiệp lớn sao chép**: [big tech AI nào? Google, Microsoft, Meta?]
-  - Cụ thể: [...]
-- **Lực 2 — Startup khác xây nhanh hơn**: [startup nào trong cùng ngành xây sản phẩm AI nhanh hơn?]
-  - Cụ thể: [...]
-- **Lực 3 — Platform AI gom người dùng**: [ChatGPT, Claude, Gemini có trở thành điểm đến mặc định không?]
-  - Cụ thể: [...]
+- **Lực 1 — Doanh nghiệp lớn**: Microsoft và Google có distribution native trong Office và Gmail.
+- **Lực 2 — Startup khác**: ChatGPT tạo một điểm đến AI phổ quát nhanh chóng, khiến các startup viết AI cần tranh giành attention.
+- **Lực 3 — Platform AI**: người dùng dần chuyển sang ChatGPT/Gemini như điểm đến mặc định cho viết và chỉnh sửa.
 
-Đánh giá của bạn:
+Đánh giá:
 
-- **Sản phẩm có cứu vãn được không?**: [Có / Không / Có nhưng cần ___]
+- **Sản phẩm có cứu vãn được không?**: Có, nhưng chỉ khi Grammarly pivot mạnh vào niche enterprise và tính năng context-aware.
 - **Lý do**:
-  - Lý do 1: [...]
-  - Lý do 2: [...]
-  - Lý do 3: [...]
-- **Điều sản phẩm đáng lẽ phải làm khác** (trong 6 tháng đầu sau khi big tech AI ra mắt):
-  - [...]
-  - [...]
-  - [...]
+  - Lý do 1: core value proposition grammar check bị commoditized.
+  - Lý do 2: Big Tech chiếm ưu thế distribution và tích hợp native.
+  - Lý do 3: người dùng muốn AI nằm sẵn trong workflow, không dùng extension riêng.
+- **Điều sản phẩm đáng lẽ phải làm khác trong 6 tháng đầu**:
+  - Tập trung vào tích hợp doanh nghiệp với privacy/compliance.
+  - Xây dựng context-aware writing assistant trong môi trường email/document.
+  - Giảm phụ thuộc vào standalone extension và hướng đến embedded AI layer.
 
 **Bằng chứng**:
 
-- [Số liệu S-__]: [...]
-- [Số liệu S-__]: [...]
-
----
+- [S-09,S-10] distribution native của Microsoft/Google.
+- [S-11] GrammarlyGO ra mắt như phản ứng.
 
 ---
 
 # Phần B — 5 chiều phân tích định lượng
 
-Phần A trả lời "vì sao". Phần B trả lời "lớn cỡ nào, đi nhanh đến đâu, dựa vào hào nào". Mỗi mục yêu cầu số liệu cụ thể; nếu không có nguồn công khai, ghi rõ "không có nguồn công khai" thay vì để trống.
-
 ## B1 — User base (số lượng người dùng)
 
-So sánh quy mô tệp người dùng trước và sau khi big tech AI ra tính năng tương tự. Chọn các chỉ số phù hợp với case (paid subscribers / free users / MAU / DAU / registered accounts).
-
-| Chỉ số | Trước AI shock | Sau AI shock | Nguồn (URL · ngày) |
+| Chỉ số | Trước AI shock | Sau AI shock | Nguồn |
 |---|---|---|---|
-| Người dùng trả tiền (paid) | | | |
-| Người dùng miễn phí (free) | | | |
-| MAU (monthly active) | | | |
-| DAU (daily active) | | | |
+| Người dùng trả tiền | >50.000 doanh nghiệp | Không có số liệu công khai | 1-research.md S-02 |
+| Người dùng miễn phí | Đã có hàng chục triệu user | Không có số liệu công khai | 1-research.md S-01 |
+| MAU | Không có số liệu công khai | Không có số liệu công khai | 1-research.md S-01 |
+| DAU | ~30 triệu | Không có số liệu công khai | 1-research.md S-01 |
 
-Nhận định 1-2 câu: tệp người dùng nào sụt nhanh nhất, tệp nào còn giữ được?
-
-- [...]
+Nhận định: user free/DAU của Grammarly là điểm mạnh trước AI, nhưng sau AI, distribution native của Big Tech đe dọa làm giảm tệp này.
 
 ## B2 — Tốc độ tăng trưởng
 
-So sánh tốc độ tăng trưởng người dùng / doanh thu trước và sau khi big tech AI ra mắt. Nếu tăng trưởng đã chuyển sang âm (suy giảm), ghi rõ thời điểm chuyển trục.
-
-| Giai đoạn | Tốc độ tăng trưởng | Nguồn (URL · ngày) |
+| Giai đoạn | Tốc độ tăng trưởng | Nguồn |
 |---|---|---|
-| Trước AI shock (___ năm gần nhất) | ___ %/năm | |
-| Sau AI shock (mới nhất) | ___ %/năm (hoặc giảm ___%) | |
-| Thời điểm tăng trưởng bắt đầu đảo chiều | | |
+| Trước AI shock | Duy trì tăng trưởng tích cực dựa trên quy mô lớn | 1-research.md S-01, S-03 |
+| Sau AI shock | Có dấu hiệu cạnh tranh ác liệt, không có số liệu công khai cụ thể | 1-research.md S-07, S-08 |
+| Thời điểm tăng trưởng đảo chiều | 11/2022 — 2023 | 1-research.md S-07, S-11 |
 
-Nhận định 1-2 câu: case này đã thật sự quay đầu giảm hay chỉ chậm lại?
-
-- [...]
+Nhận định: case này có khả năng đã chuyển từ tăng trưởng sang tăng trưởng chậm lại hoặc flat do Big Tech hấp thụ nhu cầu generation.
 
 ## B3 — Doanh thu / valuation
 
-Đào sâu số liệu tài chính có thể truy xuất công khai. Nếu là công ty niêm yết, dễ tìm trong báo cáo quý; nếu là startup tư nhân, có thể chỉ có valuation từ vòng gọi vốn.
-
-| Chỉ số | Trước AI shock | Sau AI shock | Nguồn (URL · ngày) |
+| Chỉ số | Trước AI shock | Sau AI shock | Nguồn |
 |---|---|---|---|
-| ARR (annual recurring revenue) | | | |
-| MRR (monthly recurring revenue) | | | |
-| Valuation / market cap | | | |
-| ARPU / ARPA (doanh thu trung bình mỗi user) | | | |
+| ARR | >200 triệu USD | Không có số liệu công khai | 1-research.md S-04 |
+| MRR | Không có nguồn công khai | Không có nguồn công khai | 1-research.md S-04 |
+| Valuation / market cap | 13 tỷ USD | Không có số liệu công khai | 1-research.md S-03 |
+| ARPU | Không có nguồn công khai | Không có nguồn công khai | Không có nguồn công khai |
 
-Số liệu có công khai không (Có / Không công khai / Chỉ ước tính từ báo chí)? Lý do quan trọng: số liệu càng đáng tin, phân tích càng nặng ký.
+Mức công khai của số liệu: Có cho valuation và DAU, không có cho doanh thu và ARPU sau AI.
 
-- [...]
+Nhận định: nếu Big Tech tiếp tục làm mòn willingness-to-pay, Grammarly sẽ gặp khó trong việc duy trì growth và valuation.
 
 ## B4 — Moat strategy
 
-Sản phẩm trước AI dựa vào hào phòng thủ nào? Liệt kê các loại moat áp dụng, chọn loại moat chủ đạo, rồi xác định loại moat đó có bị big tech AI tấn công không.
-
-| Loại moat | Có / Không có / Mức mạnh | Bằng chứng cụ thể |
+| Loại moat | Mức mạnh trước AI | Bằng chứng |
 |---|---|---|
-| Data moat (dữ liệu độc quyền) | | |
-| Network effect (hiệu ứng mạng) | | |
-| Switching cost (chi phí chuyển đổi) | | |
-| Brand (thương hiệu) | | |
-| Distribution (kênh phân phối) | | |
+| Data moat | Trung bình | Grammarly có dữ liệu lỗi ngữ pháp và rewrite, nhưng không độc quyền. |
+| Network effect | Yếu | Grammarly không có hiệu ứng mạng mạnh. |
+| Switching cost | Trung bình | User có workflow extension, nhưng có thể chuyển sang Office/Docs. |
+| Brand | Mạnh | Grammarly là thương hiệu viết tiếng Anh phổ biến. |
+| Distribution | Yếu | Dựa vào extension, không nằm trong workflow chính. |
 
-- **Moat chủ đạo của sản phẩm trước AI**: [tên moat] — vì [...]
-- **Big tech AI tấn công moat nào**: [tên moat bị tấn công] — bằng cách nào?
-- **Moat nào vẫn còn hiệu quả** (nếu có): [...] — vì sao chưa bị phá?
+- **Moat chủ đạo trước AI**: Brand và chất lượng kiểm tra ngữ pháp.
+- **Big tech AI tấn công moat nào**: Distribution và workflow via Office/Gmail/Docs.
+- **Moat còn lại sau AI**: Brand vẫn giữ, nhưng không đủ để chống lại shift về distribution.
 
-Nhận định 1-2 câu: cấu trúc moat của case này có chống chịu được áp lực AI không?
-
-- [...]
+Nhận định: cấu trúc moat của Grammarly không đủ chống chịu khi Big Tech tích hợp AI vào môi trường làm việc chính.
 
 ## B5 — Data flywheel + feedback loop
 
-Sản phẩm có vòng lặp dữ liệu (data flywheel) đủ mạnh để cải thiện sản phẩm theo thời gian không? Phân biệt giữa "có thu thập dữ liệu người dùng" và "có vòng lặp compounding thực sự".
+- **Hành động người dùng feed lại model**: Grammarly thu dữ liệu edit và sửa lỗi để cải thiện chất lượng chỉnh sửa.
+- **Loop có compounding**: Một phần — có feedback từ người dùng, nhưng không phải loop mạnh như một nền tảng collaboration hoặc search.
+- **Thu thập feedback systematically**: Có, nhưng không rõ ràng trong dữ liệu công khai.
+- **Big tech AI vô hiệu hoá flywheel ở đâu**: Khi người dùng chuyển workflow sang Word/Gmail/Docs, Grammarly mất nguồn input trực tiếp và khả năng thu thập dữ liệu sửa lỗi.
 
-- **Hành động người dùng nào feed lại model / sản phẩm?**: [vd: click, rating, edit, share, undo...]
-- **Loop có compounding không?**: [Có / Không / Một phần]
-  - Nếu có: amplification factor (1 user mới → ___ user kế tiếp) — ước tính dựa trên số liệu nào?
-  - Nếu không: vì sao loop không compounding?
-- **Sản phẩm có thu thập feedback systematically không?**: [Có / Không / Chỉ thu nhưng không dùng]
-- **Big tech AI có vô hiệu hoá flywheel này không?**: [Có / Không / Một phần] — bằng cách nào?
-
-Nhận định 1-2 câu: nếu loop bị big tech AI gỡ bỏ, sản phẩm còn gì để giữ chân người dùng?
-
-- [...]
-
----
-
-## Tổng kiểm tra trước khi chuyển sang file FINAL
-
-| Phần | Đã trả lời chưa? | Có ít nhất 2 bằng chứng? |
-|---|---|---|
-| A — Câu 1 — Giả định cũ | / | / |
-| A — Câu 2 — Kỳ vọng người dùng thay đổi | / | / |
-| A — Câu 3 — Fit nào vỡ | / | / |
-| A — Câu 4 — Sản phẩm có cứu được không | / | / |
-| B1 — User base | / | / |
-| B2 — Tốc độ tăng trưởng | / | / |
-| B3 — Doanh thu / valuation | / | / |
-| B4 — Moat strategy | / | / |
-| B5 — Data flywheel + feedback loop | / | / |
-
-Nếu phần nào chưa có ít nhất 2 bằng chứng → quay lại `1-research.md` tìm thêm số liệu.
-
-Sau bước này, chuyển sang `3-FINAL-case-analysis.md` để viết phiên bản nộp.
+Nhận định: nếu flywheel này bị gỡ, Grammarly chỉ còn brand và tính năng chuyên sâu, nhưng đó không đủ để giữ user trước Big Tech với distribution mạnh.
